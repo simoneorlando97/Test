@@ -1,0 +1,5 @@
+docker run --add-host=host.docker.internal:host-gateway -v /home/sorlando/Test/X509/dataset:/app/input naxipp
+
+docker exec -it my_sql_container bash
+
+docker build -t naxipp .
